@@ -35,7 +35,7 @@ Input: [150000, 180000, 200000, 170000] -> Output: 175000.0,
 Input: [10000, 25000, 30000, 15000] -> Output: 20000.0,
 Input: [50000, 75000, 60000, 45000] -> Output: 57500.0
 """
-prompt_e = f"""You are provided with input-output examples delimited by triple backlists
+prompt_e = f"""You are provided with input-output examples delimited by triple backticks
 for a Python program that receives a list of quarterly sales data. Write code 
 for this program.
 ```{examples}```
